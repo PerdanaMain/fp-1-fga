@@ -1,0 +1,14 @@
+/* Jumbotron */
+@media (max-width: 670px) {
+  .tagline-jumbotron {
+    color: white;
+    margin: 0px;
+  }
+  .tagline-jumbotron h1 {
+    font-weight: 700;
+  }
+  .tagline-jumbotron p {
+    font-weight: 400;
+  }
+}
+/* End Jumbotron */

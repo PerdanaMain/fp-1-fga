@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+.navbar .navbar-brand img {
+  margin-left: -30px;
+}
+.navbar .navbar-nav .nav-item .nav-link {
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+  font-size: 20px;
+  margin-right: 5px;
+  letter-spacing: 2px;
+}
+/* Jumbotron */
+.jumbotron {
+  background-image: url(/images/CoffeHeader.png);
+  margin-top: -100px;
+}
+
+.tagline-jumbotron {
+  text-align: center;
+  color: white;
+  padding: 200px;
+}
+.tagline-jumbotron h1 {
+  font-weight: 700;
+  font-size: 80px;
+}
+.tagline-jumbotron p {
+  font-weight: 400;
+  font-size: 40px;
+  margin-top: 20px;
+  letter-spacing: 1px;
+}
+/* End Jumbotron */
+
+/* Detail Desc */
+.desc {
+  margin-top: 50px;
+}
+/* End Detail Desc */
