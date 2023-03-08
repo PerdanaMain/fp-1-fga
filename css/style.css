@@ -333,3 +333,87 @@ footer {
 /* ----- End Coffe ------ */
 /* end products */
 /* * End Product Pages */
+
+/* * Store Pages */
+.store-tagline h1 {
+  font-weight: 800;
+  font-size: 48px;
+  color: #0f8b8d;
+}
+.store-tagline p {
+  font-weight: 400;
+  font-size: 24px;
+  color: #143642;
+}
+.card {
+  border-radius: 20px;
+}
+.card .card-body {
+  margin: 20px;
+}
+.card .card-body h1 {
+  font-weight: 700;
+  font-size: 30px;
+  color: #143642;
+}
+.card .card-body p {
+  font-weight: 400;
+  font-size: 20px;
+  color: #143642;
+}
+iframe {
+  margin: 150px 30px 30px 10px;
+}
+/* * End Store Pages */
+
+/* * Contact Pages */
+#contact {
+  width: 70%;
+}
+#contact h1 {
+  font-weight: 800;
+  font-size: 48px;
+  color: #0f8b8d;
+}
+.form-wrapper {
+  border: 2px solid #d2d2d2;
+  border-radius: 20px;
+}
+.fill-form {
+  margin: 50px 50px 50px 80px;
+  width: 80%;
+}
+.fill-form label {
+  font-weight: 700;
+  font-size: 30px;
+  color: #143642;
+}
+.fill-form input[type="text"] {
+  border: 2px solid #d2d2d2;
+  border-radius: 20px;
+  padding: 15px 10px 15px 20px;
+}
+.fill-form input::placeholder {
+  font-weight: 400;
+  font-size: 24px;
+  color: #d2d2d2;
+  padding: 20px;
+}
+.fill-form textarea {
+  border: 2px solid #d2d2d2;
+  border-radius: 20px;
+  padding: 15px 10px 15px 20px;
+}
+.fill-form textarea::placeholder {
+  font-weight: 400;
+  font-size: 24px;
+  color: #d2d2d2;
+}
+.btn.btn-danger {
+  background: #a8201a;
+  border-radius: 55px;
+  padding: 10px 50px 10px 50px;
+  margin-top: 30px;
+  margin-left: 350px;
+}
+/* * End Contact Pages */
