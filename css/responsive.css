@@ -12,3 +12,29 @@
   }
 }
 /* End Jumbotron */
+
+/*Detail Desc */
+@media (max-width: 670px) {
+  .psc-tagline {
+    margin-left: 0px;
+    margin-bottom: 50px;
+  }
+  .ask-tagline a {
+    margin-left: 150px;
+  }
+}
+/* End Detail Desc */
+
+/* Footer */
+@media (max-width: 670px) {
+  .img-icons {
+    margin-top: 10px;
+  }
+  .footer-tagline li {
+    margin-left: 30px;
+  }
+  .footer-tagline .span {
+    margin-left: 60px;
+  }
+}
+/* End Footer */
