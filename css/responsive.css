@@ -38,3 +38,16 @@
   }
 }
 /* End Footer */
+
+/* Products */
+/* Coffe */
+@media (max-width: 670px) {
+  .cf-tagline {
+    margin-left: 100px;
+  }
+  .cf-desc {
+    margin-left: 80px;
+  }
+}
+/* End Coffe */
+/* End Products */
