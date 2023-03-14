@@ -26,6 +26,9 @@
       rel="stylesheet"
     />
 
+    <!-- AOS CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <title>Aroma Bumi</title>
   </head>
   <body>
@@ -75,7 +78,7 @@
     <!-- Detail Description -->
     <section id="desc" class="desc">
       <div class="container">
-        <div class="row">
+        <div class="row" data-aos="fade-right">
           <div class="col-md-6 col-sm-12 text-center">
             <img
               src="images/Who are we.jpg"
@@ -94,7 +97,7 @@
             </div>
           </div>
         </div>
-        <div class="row mt-5">
+        <div class="row mt-5" data-aos="fade-right">
           <div class="col-md-6 col-sm-12">
             <div class="psc-tagline">
               <h1>Product Showcase</h1>
@@ -115,7 +118,7 @@
             />
           </div>
         </div>
-        <div class="row mt-5">
+        <div class="row mt-5" data-aos="fade-right">
           <div class="col-md-6 col-sm-12 text-center">
             <img
               src="images/Hang out with us.jpg"
@@ -141,27 +144,31 @@
             Find us out at Instagram <span>@aroma_bumi</span>!
           </h1>
           <div class="row mt-3 text-center">
-            <div class="col-lg-4 col-sm-12">
+            <div class="col-lg-4 col-sm-12" data-aos="flip-up">
               <img src="images/Feed 1.png" alt="feed 1 pict" class="img-feed" />
             </div>
-            <div class="col-lg-4 col-sm-12">
+            <div class="col-lg-4 col-sm-12" data-aos="flip-down">
               <img src="images/Feed 2.png" alt="feed 2 pict" class="img-feed" />
             </div>
-            <div class="col-lg-4 col-sm-12">
+            <div class="col-lg-4 col-sm-12" data-aos="flip-up">
               <img src="images/Feed 3.png" alt="feed 3 pict" class="img-feed" />
             </div>
-            <div class="col-lg-4 col-sm-12">
+            <div class="col-lg-4 col-sm-12" data-aos="flip-down">
               <img src="images/Feed 4.png" alt="feed 4 pict" class="img-feed" />
             </div>
-            <div class="col-lg-4 col-sm-12">
+            <div class="col-lg-4 col-sm-12" data-aos="flip-up">
               <img src="images/Feed 5.png" alt="feed 5 pict" class="img-feed" />
             </div>
-            <div class="col-lg-4 col-sm-12">
+            <div class="col-lg-4 col-sm-12" data-aos="flip-down">
               <img src="images/Feed 6.png" alt="feed 6 pict" class="img-feed" />
             </div>
           </div>
         </div>
-        <div class="container ask-tagline">
+        <div
+          class="container ask-tagline"
+          data-aos="fade-up"
+          data-aos-duration="3000"
+        >
           <h1>Ask us more!</h1>
           <p>
             If you have any questions or interested to cooperate with us, kindly
@@ -229,6 +236,11 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
-    <!-- End Bootstrap Js -->
+    <!-- End Bootstrap Js --><!-- AOS JS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <!-- END AOS JS -->
   </body>
 </html>
