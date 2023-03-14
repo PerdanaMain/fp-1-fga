@@ -417,3 +417,30 @@ iframe {
   margin-left: 350px;
 }
 /* * End Contact Pages */
+
+/* FizzBuzz Program */
+.fizzbuzz {
+  margin: 100px 200px 200px 350px;
+  width: 50%;
+  text-align: center;
+  padding: 50px;
+}
+.fizzbuzz label {
+  font-weight: 700;
+  font-size: 18px;
+}
+.fizzbuzz input {
+  border-radius: 25px;
+}
+.fizzbuzz button {
+  border-radius: 25px;
+  padding: 5px 15px 5px 15px;
+  font-weight: 700;
+}
+.fizzbuzz button:hover {
+  background: grey;
+}
+.fizzbuzz-tagline {
+  border-bottom: 1px solid grey;
+}
+/* End FizzBuzz Program */
