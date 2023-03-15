@@ -1,0 +1,27 @@
+@media all and (max-width: 1000px) {
+    .row p {
+      font-size: 20px;
+    }
+}
+  
+@media all and (max-width: 670px) {
+    .section-title {
+      font-weight: 400px;
+      font-size: 24px;
+      margin-bottom: 25px;
+    }
+    .row p {
+      font-size: 8px;
+    }
+    input, textarea {
+      padding: 0 7px;
+      font-size: 18px
+    }
+    button {
+      padding: 1px 10px;
+      margin: 7px 0;
+      font-weight: 50;
+      line-height: 15px;
+      font-size: 10px;
+    }
+}
