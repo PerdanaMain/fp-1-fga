@@ -1,27 +1,69 @@
 @media all and (max-width: 1000px) {
-    .row p {
-      font-size: 20px;
-    }
+  .row p {
+    font-size: 20px;
+  }
 }
-  
+
 @media all and (max-width: 670px) {
-    .section-title {
-      font-weight: 400px;
-      font-size: 24px;
-      margin-bottom: 25px;
-    }
-    .row p {
-      font-size: 8px;
-    }
-    input, textarea {
-      padding: 0 7px;
-      font-size: 18px
-    }
-    button {
-      padding: 1px 10px;
-      margin: 7px 0;
-      font-weight: 50;
-      line-height: 15px;
-      font-size: 10px;
-    }
+  .section-title {
+    font-weight: 400px;
+    font-size: 24px;
+    margin-bottom: 25px;
+  }
+  .row p {
+    font-size: 8px;
+  }
+  input,
+  textarea {
+    padding: 0 7px;
+    font-size: 18px;
+  }
+  button {
+    padding: 1px 10px;
+    margin: 7px 0;
+    font-weight: 50;
+    line-height: 15px;
+    font-size: 10px;
+  }
+}
+@media all and (max-width: 1000px) {
+  .top-wrapper h1 {
+    font-size: 55px;
+  }
+
+  .heading h2 {
+    font-size: 32px;
+  }
+  .lina .btn {
+    width: 400px;
+  }
+  .btn-wrapper {
+    font-size: 20px;
+  }
+}
+@media (max-width: 670px) {
+  .btn {
+    width: 100%;
+  }
+  .btn-wrapper {
+    font-size: 12px;
+  }
+
+  .top-wrapper {
+    text-align: left;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  .top-wrapper h1 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .top-wrapper p {
+    font-size: 14px;
+    line-height: 20px;
+  }
 }
