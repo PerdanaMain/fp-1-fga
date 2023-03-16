@@ -5,7 +5,9 @@
   padding-top: 100px;
   text-align: center;
 }
-
+.bg-grey {
+  background: grey;
+}
 .section-title {
   font-weight: 800px;
   font-size: 48px;
@@ -120,38 +122,21 @@ textarea {
   padding-left: 25px;
 }
 
-header {
-  height: 70px;
-  background-color: rgb(75, 71, 67);
-  display: flex;
-  padding: 0 100px;
-  justify-content: space-between;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-}
-header h1 {
-  color: white;
-  line-height: 70px;
-}
-nav ul li {
-  display: inline-block;
-}
-nav ul li {
-  display: inline-block;
-  text-decoration: none;
-  color: white;
-  height: 70px;
-  line-height: 70px;
-  padding: 0 25px;
-}
-nav ul li a {
-  text-decoration: none;
-  color: white;
-}
 .content section {
   min-height: 100vh;
   background-color: rgb(247, 241, 241);
   margin: 20px 0;
+}
+.navbar-brand {
+  text-decoration: none;
+  color: white;
+}
+.nav-link {
+  margin-right: 30px;
+  color: white;
+  text-decoration: none;
+}
+.navbar button {
+  border: 1px solid white;
+  color: white;
 }

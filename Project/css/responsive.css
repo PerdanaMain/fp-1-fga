@@ -43,17 +43,23 @@
   }
 }
 @media (max-width: 670px) {
-  header {
-    width: 60%;
+  .lina-container {
+    width: 80%;
   }
-  header h1 {
-    font-size: 15px;
+  .lina-container h1 {
+    width: 80%;
+  }
+  .lina-container h2 {
+    width: 80%;
+  }
+  .lina-container .btn-wrapper {
+    width: 80%;
+  }
+  .lina-container .btn-wrapper {
+    font-size: 12px;
   }
   .btn {
     width: 100%;
-  }
-  .btn-wrapper {
-    font-size: 12px;
   }
 
   .top-wrapper {
