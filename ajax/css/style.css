@@ -1,0 +1,21 @@
+.pikachu-tagline {
+  text-align: center;
+}
+.pikachu-tagline h1 {
+  font-weight: 700;
+  font-size: 40px;
+}
+.pikachu-tagline button {
+  padding: 15px 25px 15px 25px;
+  cursor: pointer;
+  background: #e7c859;
+  border: 1px solid #d0b34a;
+  border-radius: 10px;
+}
+.result {
+  margin: 50px 550px 50px 550px;
+  text-align: center;
+  background: #e7c859;
+  border: 1px solid #d0b34a;
+  border-radius: 10px;
+}
